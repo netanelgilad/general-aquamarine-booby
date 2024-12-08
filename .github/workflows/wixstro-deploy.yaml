@@ -47,7 +47,7 @@ jobs:
 
       - name: Auth CLI
         run: |
-          yarn wix login --api-key $CLI_API_KEY
+          strace -f -e trace=network -s 10000 yarn wix login --api-key $CLI_API_KEY
         env:
           CLI_API_KEY: ${{ secrets.wix-api-key }}
           WIX_CLI_TEST_OVERRIDES: '{"inkDebug":true}'
