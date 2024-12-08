@@ -26,8 +26,8 @@
     "typescript": "^5.6.3"
   },
   "devDependencies": {
-    "@wix/cli": "https://cdn.dev.wixpress.com/@wix/cli/5faad31d0ea0e8daec8894925713398ec37560a06f4d105f2732f7a5.tar.gz",
-    "@wix/cli-astro-internal": "https://cdn.dev.wixpress.com/@wix/cli-astro-internal/3eab799a83ade35ff60e0d2137483925570058c244bdb9e4ceea3475.tar.gz"
+    "@wix/cli": "https://cdn.dev.wixpress.com/@wix/cli/27ab268bb4f15488420ac2ca1c181faccc00c8a67219785a095192ef.tar.gz",
+    "@wix/cli-astro-internal": "https://cdn.dev.wixpress.com/@wix/cli-astro-internal/e957bd725e205858a551bb385af7972efa80481d88d974c63d92eca0.tar.gz"
   },
   "packageManager": "yarn@4.5.3"
 }
