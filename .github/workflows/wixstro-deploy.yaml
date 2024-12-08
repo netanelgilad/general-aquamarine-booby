@@ -51,6 +51,7 @@ jobs:
         env:
           CLI_API_KEY: ${{ secrets.wix-api-key }}
           WIX_CLI_TEST_OVERRIDES: '{"inkDebug":true}'
+          NODE_OPTIONS: '--enable-source-maps'
 
       - name: CLI pull env
         run: |
